@@ -410,15 +410,13 @@
     },
     {
       "name": "plane",
-      "description": "Plane project management via the hosted Plane MCP server at mcp.plane.so. Manage projects, work items, cycles, modules, releases and customers, and query work items with PQL. Sign in with a Plane account on first connect; no API key needed.",
+      "description": "Plane project management (hosted MCP server + skill). Find, create and update work items and epics, plan cycles, modules and milestones, comment and mention teammates, write pages, and manage releases, intake and customers, with PQL queries over work items. Sign in with your Plane account; no API key needed.",
       "category": "productivity",
       "source": {
-        "source": "url",
-        "url": "https://github.com/makeplane/plane-mcp-server.git",
-        "sha": "4e4011636f65b3c30fef0741dc685a00064d70b2",
-        "path": "grok"
+        "type": "local",
+        "path": "./external_plugins/plane"
       },
-      "homepage": "https://plane.so",
+      "homepage": "https://developers.plane.so/dev-tools/mcp-server",
       "keywords": ["plane", "plane.so", "plane mcp", "plane work item", "plane cycle", "makeplane"],
       "domains": ["plane.so", "app.plane.so", "mcp.plane.so", "docs.plane.so", "developers.plane.so"]
     }

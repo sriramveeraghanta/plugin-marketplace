@@ -651,13 +651,18 @@
       }
     },
     "plane": {
-      "sha": "4e4011636f65b3c30fef0741dc685a00064d70b2",
       "version": "1.0.0",
       "components": {
         "mcpServers": [
           {
             "name": "plane",
             "description": "http"
+          }
+        ],
+        "skills": [
+          {
+            "name": "plane",
+            "description": "Work with Plane project management through the Plane MCP server: find, create, triage and update work items and epics,…"
           }
         ]
       }
